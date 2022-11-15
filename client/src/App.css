@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: no-repeat url("./paper.jpg");
+
+}
+.homeBtn{
+  margin-bottom: 2rem;
+}
+
+.sameNavbar{
+  background-color: rgba(155, 152, 144, 0.9);
+  margin-bottom: 1rem;
+}
+
+
+
+.createPost {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.createPost::after {
+  content: "";
+  background-image: url('./skyblue.jpg');
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.45;
+  z-index: -2;
+}
+
+.mainCreatePost {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.createPostBtn {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+
+
+.showNotes {
+  width: 100%;
+  /* margin: auto; */
+  /* height: 100%; */
+}
+
+.showNotes::before {
+  content: "";
+  background-image: url('./orange.jpg');
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.52;
+  z-index: -2;
+}
+
+.mainPosts{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.notesCard {
+  margin-bottom: 1rem;
+  background-color: rgb(236, 227, 216);
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px){
+
+  .mainCreatePost {
+    width: 90%;
+  }
+
+  .mainPosts{
+    width: 90%;
+  }
+
+
+}
