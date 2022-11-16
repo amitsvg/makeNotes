@@ -1,6 +1,7 @@
 import "./App.css";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import WM from "./WaterMark";
 
 function App() {
   const navigate = useNavigate();
@@ -24,6 +25,7 @@ function App() {
       >
         SEE ALL NOTES
       </Button>
+      <WM/>
     </div>
   );
 }

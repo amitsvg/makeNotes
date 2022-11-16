@@ -5,6 +5,7 @@ import { Button, Form } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Modal from "react-bootstrap/Modal";
+import WM from "./WaterMark";
 
 function Posts() {
   const navigate = useNavigate();
@@ -77,26 +78,17 @@ function Posts() {
   return (
     <div className="showNotes">
 
-
-
       <Navbar className="sameNavbar">
         <Container>
-        {/* <Button variant="outline-secondary">Secondary</Button>        */}
+          {/* <Button variant="outline-secondary">Secondary</Button>        */}
           <Button
-          variant="outline-dark"
-          onClick={() => navigate("/")}
-        >
-          HOME
-        </Button>
+            variant="outline-dark"
+            onClick={() => navigate("/")}
+          >
+            HOME
+          </Button>
         </Container>
       </Navbar>
-
-
-
-
-
-
-
 
       <div className="mainPosts">
         <h1>All Notes</h1>
@@ -180,6 +172,7 @@ function Posts() {
           ""
         )}
       </div>
+      <WM />
     </div>
   );
 }

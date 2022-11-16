@@ -2,6 +2,7 @@ import { Form, Button, Navbar, Container } from "react-bootstrap";
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import WM from "./WaterMark";
 
 function CreatePost() {
   const navigate = useNavigate();
@@ -84,6 +85,7 @@ function CreatePost() {
           SEE ALL NOTES
         </Button>
       </div>
+<WM/>
     </div>
   );
 }
