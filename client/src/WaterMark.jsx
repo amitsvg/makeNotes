@@ -2,7 +2,7 @@ const watermark = () => {
     return (
 
         <div className="watermark">
-            <h4>created by me == "Amit"</h4>
+            <h4>All Rights Reserved</h4>
         </div>
     );
 
