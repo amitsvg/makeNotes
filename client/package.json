@@ -41,7 +41,6 @@
   },
   "overrides": {
     "autoprefixer": "10.4.5"
-},
-  
-  "proxy": "https://sticker123.herokuapp.com/"
+}
+
 }
