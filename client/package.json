@@ -43,5 +43,5 @@
     "autoprefixer": "10.4.5"
 },
   
-  "proxy": "https://morning-bastion-54443.herokuapp.com/"
+  "proxy": "https://sticker123.herokuapp.com/"
 }
