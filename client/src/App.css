@@ -80,12 +80,7 @@
 }
 
 
-.watermark{
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -10%);
-}
+
 
 .watermark{
   position: fixed;
@@ -107,6 +102,13 @@
 
   .mainPosts{
     width: 90%;
+  }
+
+  .watermark{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -10%);
   }
 
 }
