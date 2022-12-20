@@ -12,7 +12,12 @@ app.use(cors());
 //DB configs
 mongoose
   .connect(process.env.MONGO_URI)
-  .then(console.log("Connected to database createPost in mongodb atlas"))
+  // .then(console.log("Connected to database createPost in mongodb atlas")
+  .then(
+  app.listen(process.env.PORT || 3001, function () {
+    console.log("Express server is running");
+  })
+  )
   .catch((err) => console.log(err));
 
 const postSchema = mongoose.Schema({
@@ -71,6 +76,6 @@ if(process.env.NODE_ENV ==="production"){
   });
 }
 
-app.listen(process.env.PORT || 3001, function () {
-  console.log("Express server is running");
-});
+// app.listen(process.env.PORT || 3001, function () {
+//   console.log("Express server is running");
+// });
